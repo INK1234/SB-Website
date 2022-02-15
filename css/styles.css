@@ -27,7 +27,6 @@ body {
     background-position: 0% 50%;
   }
 } */
-
 li {
   list-style: none;
 }
@@ -35,7 +34,6 @@ li {
 a {
   text-decoration: none;
 }
-
 
 .container-fluid {
   padding: 5% 15%;
@@ -241,12 +239,84 @@ a {
     margin: auto;
   }
 
+  .big-heading {
+    color: white;
+    font-size: 7rem;
+    line-height: 1.5;
+    padding: 10px 0;
+  }
+
+  .section-heading {
+    color: grey;
+    font-size: 4rem;
+    line-height: 1.5;
+  }
+
   #title.container-fluid {
     text-align: center;
   }
 
+  #title button {
+    font-size: 2rem;
+    height: 5rem;
+  }
+
   #demo.container-fluid {
     text-align: center;
+  }
+
+  #demo .big-heading {
+    color: white;
+    font-size: 7rem;
+    line-height: 1.5;
+    padding: 10px 0;
+  }
+
+  #demo .section-heading {
+    color: grey;
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+
+  #download button {
+    font-size: 2rem;
+    height: 5rem;
+  }
+
+  /* #features .section-heading {
+    color: grey;
+    font-size: 5rem;
+    line-height: 1.5;
+  } */
+  .feature-title {
+    font-size: 6rem;
+    padding: 1rem;
+  }
+
+  .feature p {
+    font-size: 2rem;
+  }
+
+  .feature i {
+    font-size: 7rem;
+  }
+
+  #contact {
+    font-size: 2rem;
+  }
+
+  #contact button {
+    font-size: 2rem;
+    height: 5rem;
+  }
+
+  #footer {
+    font-size: 2rem;
+  }
+
+  #footer h4 {
+    font-size: 3rem;
+    margin-top: 5rem;
   }
 
   .nav-menu {
