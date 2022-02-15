@@ -271,6 +271,10 @@ a {
     text-align: center;
   }
 
+  #title .big-heading {
+    margin-top: 10%;
+  }
+
   #title button {
     font-size: 2rem;
     height: 5rem;
