@@ -275,6 +275,10 @@ a {
     margin-top: 10%;
   }
 
+  #title image {
+    margin-top: 3rem;
+  }
+
   #title button {
     font-size: 2rem;
     height: 5rem;
@@ -350,6 +354,7 @@ a {
     position: fixed;
     left: -100%;
     top: 5rem;
+    padding-bottom: 5rem;
     flex-direction: column;
     background-color: black;
     width: 100%;
@@ -378,10 +383,10 @@ a {
   }
 
   .hamburger.active .bar:nth-child(1) {
-    transform: translateY(8px) rotate(45deg);
+    transform: translateY(21px) rotate(45deg);
   }
 
   .hamburger.active .bar:nth-child(3) {
-    transform: translateY(-8px) rotate(-45deg);
+    transform: translateY(-21px) rotate(-45deg);
   }
 }
